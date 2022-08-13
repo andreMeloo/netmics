@@ -1,4 +1,4 @@
-export default ({ item }) => {
+export default function FeatureComic({ item }) {
     let description = '';
     if (item.description != null) {
         description = item.description

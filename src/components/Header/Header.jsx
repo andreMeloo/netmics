@@ -1,4 +1,4 @@
-export default ({black}) => {
+export default function Header({black}){
     const headerBlack = 'fixed z-50 top-0 left-0 right-0 h-logo flex justify-between items-center pt-0 px-7 bg-transparent transition-all ease-in-out delay-70s bg-headerBlack'
 
     return (

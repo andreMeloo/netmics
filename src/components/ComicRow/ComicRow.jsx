@@ -3,7 +3,7 @@ import {  useState } from "react";
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 
-export default ({ title, items }) => {
+export default function ComicRow({ title, items }) {
     const [scrollX, setScrollX] = useState(0);
 
     const handleLeftArrow = () => {
